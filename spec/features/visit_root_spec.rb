@@ -10,7 +10,7 @@ describe "when you visit the root", js: true do
 
   it "says Hey Gerald clicking 'Hey Macarena'" do
    visit("/")
-   page.find("h1", :text => "ANERACAM YEh").clicking
+   page.find("h1", :text => "ANERACAM YEH").clicking
    expect(page).to have_content "Hey Gerald"
   end
 end
